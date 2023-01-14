@@ -1,0 +1,37 @@
+package exercicio_estrutura_condicional;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		exercicio1();
+		
+     }
+	
+	public static void exercicio1() {
+		
+		Scanner xx = new Scanner(System.in);
+		
+		int x = xx.nextInt();
+		
+		if (x < 0) {
+			System.out.println("NEGATIVO");
+			
+		} else {
+			System.out.println("NÃO NEGATIVO");
+		}
+		
+		xx.close();
+		
+	}
+	
+	public static void exercicio2() {
+		
+		
+		
+		
+		
+	}
+	
+}
